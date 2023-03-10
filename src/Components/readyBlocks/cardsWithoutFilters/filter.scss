@@ -1,0 +1,59 @@
+
+.cards__filter {
+	padding: 60px 0px;
+}
+.filter__cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 83px;
+}
+.filter__search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 19px;
+}
+.filter__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.filter__input {
+	text-align: center;
+	padding: 6px 36px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+.filter__fust_search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 35px;
+}
+.filter__buttons{
+	display: flex;
+	gap: 5px;
+}
+.filter__text_button {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.filter__button {
+	padding: 7px 20px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px 0px 0px 4px;
+	button {
+		font-size: 12px;
+		line-height: 17px;
+		text-align: center;
+		color: #000000;
+	}
+}

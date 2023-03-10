@@ -1,0 +1,66 @@
+.aboutBlock {
+	padding: 70px 0px 30px 0px;
+}
+.aboutBlock__img {
+	margin-right: 55px;
+}
+.aboutBlock__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutBlock__content {
+	max-width: 420px;
+	margin: 0 auto;
+}
+.aboutBlock__title {
+	margin-bottom: 21px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	color: #000000;
+	text-align: center;
+}
+.aboutBlock__coffe {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 25.7px;
+}
+.aboutBlock__country {
+	span {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 20px;
+		color: #000000;
+	}
+		margin-bottom: 16px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #000000;
+}
+.aboutBlock__text {
+	span {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 20px;
+		color: #000000;
+	}
+	margin-bottom: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000
+}
+.aboutBlock_price {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	span {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 35px;
+		color: #000000
+	}
+}

@@ -1,0 +1,64 @@
+.cards {
+	padding: 60px 0 30px 0;
+}
+
+.cards__goods {
+	padding: 30px 0 61px 0;
+}
+
+.goods__wrapper {
+		max-width: 800px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(3, 220px);
+		gap: 71px 60px;
+}
+
+.goods__card {
+	position: relative;
+}
+.goods__background {
+	img {
+		position: absolute;
+		top: 37px;
+		left: 28px;
+	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 220px;
+	height: 260px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.25));
+}
+
+
+.goods__name {
+	position: absolute;
+	top: 166px;
+	left: 23px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+.goods__country {
+	position: absolute;
+	top: 195px;
+	left: 152px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: right;
+	color: #000000;
+}
+.goods__price {
+	position: absolute;
+	top: 223px;
+	left: 157px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
